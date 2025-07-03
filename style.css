@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #f4f4f8;
+  padding: 40px 30px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 26px;
+}
+
+.field {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 12px;
+  background: #eaeaea;
+  font-size: 16px;
+  box-shadow: inset 2px 2px 5px #d1d1d1, inset -2px -2px 5px #ffffff;
+  outline: none;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2b2b2b;
+  min-height: 24px;
+}
+.switch-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 20px;
+}
+
+#switchBtn {
+  background: #f0f0f0;
+  color: #333;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px #d1d1d1, -2px -2px 5px #ffffff;
+  transition: all 0.2s ease;
+}
+
+#switchBtn:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
