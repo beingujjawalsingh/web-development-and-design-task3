@@ -33,4 +33,6 @@ This is a simple and interactive **Temperature Converter** web application built
 ## 📸 Preview
 
 ![Temperature Converter Preview](https://github.com/beingujjawalsingh/web-development-and-design-task3/blob/ffcb29bed215d59e1b35c3b4654a21f012759848/Screenshot%202025-07-03%20114732.png) 
+![image alt](https://github.com/beingujjawalsingh/web-development-and-design-task3/blob/5b92b12399b34d15dd2d4650c02d092d48867b8b/Screenshot%202025-07-03%20114750.png)
+
 
